@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Konik Saputra</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" rel="stylesheet">
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet">
+    <link href="assets/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Konik Saputra</h1>
+        <p>Welcome to Konik Saputra Web</p>
+    </div>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="row">
+        <div class="side">
+            <div style="display: flex; justify-content: center;">
+                <img src="assets/img/photo.jpg" alt="avatar" style="border-radius: 50%; width: 200px;">
+            </div>
+            <!-- <i class="fas fa-user"></i> -->
+            <p style="text-align:center;"><b>Konik Saputra</b></p>
+            <br><p><b>About Me</b></p>
+            <p>I am a Junior Web developer with strong passion to learn new things. I am familiar with a few web frameworks. I enjoy making digital art on my spare time.</p>
+        </div>
+        <div class="main">
+            <p><h3>EXPERIENCE</h3></p>
+            <p>Wahana Prestasi Logistik, Web Developer | Nov 2018 - Apr 2019</p>
+            <p>UIN Syarif Hidayatullah Jakarta, Web Developer Team of Dirasat Islamiyah Faculty | Jan 2015 - June 2015</p>
+            <p>BTMP BPPT, Web Developer | Feb 2014 - May 2014</p>
+            <p><h3>EDUCATION</h3></p>
+            <p>UIN Syarif Hidayatullah Jakarta, Informatics Engineering | 2011 - 2018</p>
+            <p><h3>SKILLS</h3></p>
+            <p>Languages:
+                English (intermediate), 
+                Indonesian (Native)
+            </p>
+            <p>Computer Skills
+                Programming: HTML, PHP, CSS, Java, SQL, MySQL, Laravel, Linux<br>
+                Design: Photoshop
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <p><small>© Konik Saputra 2019</small></p>
+    </div>
+    <button class="button1" type="button" onclick="changeBg();this.setAttribute('onclick','changeBg2()')"><i class="fas fa-palette" style="color: darkslategray;"></i></button>
+    <script>
+        function changeBg() {
+          document.body.style.backgroundColor = "#2e3131";
+        }
+        function changeBg2() {
+          document.body.style.backgroundColor = "gray";
+        }
+    </script>
+</body>
+
+<script>
+    var greeting = "Selamat datang di Web Konik Saputra";
+    alert(greeting);
+</script>
+</html>
